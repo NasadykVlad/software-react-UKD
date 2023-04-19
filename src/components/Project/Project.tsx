@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import ProjectCard from 'blocks/ProjectCard/ProjectCard'
-import ProjectForm from 'blocks/ProjectForm/ProjectForm'
+import ProjectCard from 'layouts/ProjectCard/ProjectCard'
+import ProjectForm from 'layouts/ProjectForm/ProjectForm'
 
-import { TData } from 'types/dataTypes'
+import { TData } from 'types/DataTypes'
 
-import { data } from 'mockedData/data'
+import { data } from 'mckdData/data'
 
 import './style.scss'
 

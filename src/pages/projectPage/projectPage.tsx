@@ -95,21 +95,6 @@ const ProjectPage = (): React.ReactElement => {
                 </div>
             ) : (
                 <div>
-                    {!loading && !error && (
-                        <div className='row'>
-                            <div className='col-sm-12'>
-                                <div className='button-group fluid'>
-                                    <button
-                                        className='button default'
-                                        onClick={handleMoreClick}
-                                    >
-                                        More...
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    )}
-
                     {loading && (
                         <div className='center-page'>
                             <p>Loading...</p>
