@@ -1,6 +1,6 @@
-import HeaderNav from 'blocks/HeaderNav/HeaderNav'
-import HomePage from 'containers/HomePage/HomePage'
-import ProjectPage from 'containers/ProjectPage/ProjectPage'
+import HeaderNav from 'layouts/HeaderNav/HeaderNav'
+import HomePage from 'pages/homePage/homePage'
+import ProjectPage from 'pages/projectPage/projectPage'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 

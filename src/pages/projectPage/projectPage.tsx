@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import ProjectCard from 'blocks/ProjectCard/ProjectCard'
-import ProjectForm from 'blocks/ProjectForm/ProjectForm'
+import ProjectCard from 'layouts/ProjectCard/ProjectCard'
+import ProjectForm from 'layouts/ProjectForm/ProjectForm'
 
 import { TData } from 'types/DataTypes'
 
